@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/action_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/androidparty" />
+
+
+    <ImageView
+        android:id="@+id/start"
+        android:layout_width="60dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/play" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="140dp"
+        android:text="Click To Play "
+        android:textColor="#FAFAFA" />
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text=" Happy Birthday .........  !"
+        android:textColor="#FAFAFA"
+        android:textSize="15dp" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:paddingTop="50dp"
+        android:text="I am grateful for your true friendship. Hope you birthday is amazing as you are my best friend!!
+Thanks for supporting and helping me in my crucial time ! "
+        android:textColor="#FAFAFA"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="10dp"
+        android:paddingBottom="30dp"
+        android:text="From - Kushagra Tandon "
+        android:textColor="#FAFAFA" />
+
+</RelativeLayout>
